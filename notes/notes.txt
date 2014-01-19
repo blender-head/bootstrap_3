@@ -1,0 +1,72 @@
+1. Installation:
+
+	- download bootstrap: https://github.com/scottjehl/Respond
+	- download jquery
+	- download respond.js: https://github.com/scottjehl/Respond
+	- add additional meta tag: <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+2. Bootstrap 3 Grid System: -> http://getbootstrap.com/css/#grid
+	
+	- 12 grid system
+	
+	- classes:
+		.col-xs- : Horizontal at all times
+		.col-sm- : Collapsed to start, horizontal above breakpoints
+		.col-md- : Collapsed to start, horizontal above breakpoints	
+		.col-lg- : Collapsed to start, horizontal above breakpoints
+		
+		to add responsiveness: .col-md-* + .col-xs-*
+		e.g: class="col-lg-6 col-sm-5"
+		
+	- grid markup demo: grid_markup.html
+	
+	- grid offset: -> grid_offset.html
+	
+		- offset will move columns to the right by 'x' column
+		  e.g: .col-md-offset-3 -> will move the right 3 column
+	
+	- grid order (push/pull): grid_order.html
+	
+	- grid nesting: -> grid_nesting.html
+	
+		- nest grid inside another grid
+	
+	- jumbotron: jumbotron.html
+	
+3. CSS Overview:
+
+	- blockquote and small tag style: block_small.html
+	
+	- hiddden class: -> responsive_class.html
+	
+		- hidden-xs: will hide the element in certain device dimension
+		
+	- button tag style: button.html
+	
+	- image style and responsiveness: image_style.html
+	
+	- glyph icons: -> http://getbootstrap.com/components/
+
+		glyph.html
+		
+	- thumbnail gallery: thumb_gallery.html
+	
+	- table style: table_style.html
+	
+	- override boostrap styles: custom_style.html
+	
+4. Navigation:
+
+	- breadcrumb: breadcrumb.html
+	
+	- tabs and pills: tabs.html
+	
+	- responsive navigation bar: nav_responsive.html
+
+5. JavaScript Effects:
+
+	- dropdown nav: dropdown.html
+	
+	- same page tabs: same_tabs.html
+	
+	- accordion: accordion.html
